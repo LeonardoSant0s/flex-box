@@ -1,0 +1,155 @@
+
+#tudo{
+	margin: 10px;
+	
+	
+	height: 100%;
+	width: 100%;
+	
+	
+}
+
+.padrao{
+	width: 200px;
+	height:150px;
+	border: 1px solid black;
+}
+
+.flex-box{
+	width: 50px;
+	height: 50px;
+	background-color: blue;
+
+}
+
+.flex-start{
+	display: flex;
+	justify-content: flex-start;
+}
+
+.flex-end{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.center{
+	display: flex;
+	justify-content: center;
+}
+
+.space-around{
+	display: flex;
+	justify-content: space-around;
+}
+
+.space-between{
+	display: flex;
+	justify-content: space-between;
+}
+
+.start{
+	display: flex;
+	align-items: flex-start;
+}
+
+.end{
+	display: flex;
+	align-items: flex-end;
+}
+
+.centro{
+	display: flex;
+	align-items: center;
+}
+
+.baseline{
+	display: flex;
+	align-items: baseline;
+}
+
+.stretch{
+	display: flex;
+	align-items: stretch;
+}
+
+.red{
+	background-color: red;
+}
+
+.yellow{
+	background-color: yellow;
+}
+
+.row{
+	display: flex;
+	flex-direction: row;
+}
+
+.row-reverse{
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.rap{
+	width: 50px;
+	height: 50px;
+	background-color: green;
+	margin: 5px;
+}
+
+.column{
+	display: flex;
+	flex-direction: column;
+}
+
+.column-reverse{
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.order{
+	display: flex;
+	flex-direction: row;
+}
+
+.order1{
+	order: 1;
+}
+
+.order2{
+	order: 0;
+}
+
+.order3{
+	order: -1;
+}
+
+#diferente{
+	text-align: center;
+}
+
+.nowrap{
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.wrap{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.wrap-reverse{
+	display: flex;
+	flex-wrap: wrap-reverse;
+}
+
+#left{
+ background-color: blue;
+ width: 100%;
+ padding: 10px 2%;
+}
+#right{
+	background-color: blue;
+ width: 100%;
+ padding: 10px 2%;
+}

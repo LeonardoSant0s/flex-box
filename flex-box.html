@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>flex box</title>
+	<link rel="stylesheet" type="text/css" href="flex-box.css">
+</head>
+<body>
+	<h1>flex box</h1>
+	<div id="conteiner">
+
+		
+		
+		<div id="tudo">
+			<div id="na">
+		<h2>justify-content: + </h2>
+
+		
+			<h4>flex-start: os itens são alinhados à esquerda do contêiner.</h4>
+
+			<div class="padrao flex-start">
+				<div class="flex-box">
+			
+				</div>
+			</div>
+		
+
+ 		
+			<h4>flex-end: os itens são alinhados ao lado direito do contêiner.</h4>
+
+			<div class="padrao flex-end">
+				<div class="flex-box">
+			
+				</div>
+			</div>
+		
+
+		
+			<h4>center: os itens são alinhados no centro do contêiner.</h4>
+
+			<div class="padrao center">
+				<div class="flex-box">
+			
+				</div>
+			</div>
+		
+
+		
+			<h4>space-between: os itens são exibidos com espaçamento igual entre eles.</h4>
+
+			<div class="padrao space-between">
+				<div class="flex-box">
+			
+				</div>
+				<div class="flex-box red">
+			
+				</div>
+			</div>
+		
+
+		
+			<h4>space-around: os itens são exibidos com espaçamento igual ao redor deles.</h4>
+
+			<div class="padrao space-around">
+				<div class="flex-box">
+			
+				</div>
+				<div class="flex-box red">
+			
+				</div>
+			</div>
+		</div>
+
+		<!--podem ser combinados -->
+
+		<div id="na">
+		<h2>align-items: +</h2>
+
+		
+			<h4>flex-start: os itens são alinhados ao topo do contêiner.</h4>
+
+			<div class="padrao align start">
+				<div class="flex-box">
+			
+				</div>
+			</div>
+		
+
+		
+			<h4>flex-end: os itens são alinhados ao fundo do contêiner.</h4>
+
+			<div class="padrao align end">
+				<div class="flex-box">
+			
+				</div>
+			</div>
+		
+
+		
+			<h4>center: os itens são alinhados no centro vertical do contêiner.</h4>
+
+			<div class="padrao align centro">
+				<div class="flex-box">
+			
+				</div>
+			</div>
+		
+
+		
+			<h4>baseline: os itens são exibidos na linha de base do contêiner.</h4>
+
+			<div class="padrao baseline">
+				<div class="flex-box">
+			
+				</div> 
+				<div class="flex-box red">
+			
+				</div>
+			</div>
+		
+
+		
+			<h4>stretch: os itens são esticados para caber no contêiner.</h4>
+
+			<div class="padrao stretch">
+				<div class="flex-box">
+			
+				</div>
+				<div class="flex-box red">
+			
+				</div>
+			</div>
+		
+
+		</div>
+		<div id="na">
+		<h2>flex-direction: +</h2>
+
+		
+			<h4>row: os itens são colocados da mesma forma que a direção do texto.</h4>
+
+			<div class="padrao row">
+				<div class="flex-box">
+			
+				</div>
+				<div class="flex-box red">
+			
+				</div>
+			</div>
+		
+
+		
+			<h4>row-reverse: os itens são posicionados opostos à direção do texto.</h4>
+
+			<div class="padrao row-reverse">
+				<div class="flex-box">
+			
+				</div>
+				<div class="flex-box red">
+			
+				</div>
+			</div>
+	
+
+		
+			<h4>column: Os itens são colocados de cima para baixo.</h4>
+
+			<div class="padrao column">
+				<div class="flex-box">
+			
+				</div>
+				<div class="flex-box red">
+			
+				</div>
+			</div>
+		
+
+		
+			<h4>column-reverse: reversa: os itens são colocados de baixo para cima.</h4>
+
+			<div class="padrao column-reverse">
+				<div class="flex-box">
+			
+				</div>
+				<div class="flex-box red">
+			
+				</div>
+			</div>
+		
+
+
+		
+			<h2>flex-wrap: +</h2>
+
+		
+			<h4>nowrap: Cada item se ajusta a uma única linha.</h4>
+
+			<div class="padrao nowrap">
+				<div class="rap">
+					item1
+				</div>
+				<div class="rap">
+					item2
+				</div>
+				<div class="rap">
+					item3
+				</div>
+			</div>
+		
+
+		
+			<h4>wrap: Os itens são dispostos em linhas adicionais.</h4>
+
+			<div class="padrao wrap">
+				<div class="rap">
+					item1
+				</div>
+				<div class="rap">
+					item2
+				</div>
+				<div class="rap">
+					item3
+				</div>
+			</div>
+		
+
+		
+			<h4>wrap-reverse: os itens são agrupados em linhas adicionais ao contrário</h4>
+
+			<div class="padrao wrap-reverse">
+				<div class="rap">
+					item1
+				</div>
+				<div class="rap">
+					item2
+				</div>
+				<div class="rap">
+					item3
+				</div>
+			</div>
+		
+		</div>
+		<div id="na">
+		<h2>order: </h2>
+
+		
+			<h4>server para definir a ordem, 1 ele ficará na direita, 0 no meio, -1 na esquerda.</h4>
+
+			<div class="padrao order">
+				<div class="flex-box order1">
+					<h1 id="diferente">1</h1>
+				</div>
+				<div class="flex-box red order2">
+					<h1 id="diferente">0</h1>
+				</div>
+				<div class="flex-box yellow order3">
+					<h1 id="diferente">-1</h1>
+				</div>
+			</div>
+		
+
+		
+			<h2>align-self: </h2>
+
+			<h4>igual ao align-items porem para um unico item.</h4>
+		
+
+		
+			<h2>align-content:</h2>
+
+			<h4>mesma coisa que o align-items porém para entre linhas e não objetos em linha.</h4>
+		
+
+		
+			<h2>flex-flow</h2>
+
+			<h4>Junção entre o flex-wrap e o flex-direction.</h4>
+		</div>
+		</div>
+	
+	</div>
+</body>
+</html>
